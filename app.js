@@ -1,5 +1,5 @@
-var PORT = process.env.PORT || 8080;
-const io = require('socket.io')(port);
+var PORT = process.env.PORT;
+const io = require('socket.io')(PORT);
 
 
 
